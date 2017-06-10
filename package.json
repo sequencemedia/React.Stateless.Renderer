@@ -1,6 +1,6 @@
 {
   "name": "react-stateless-renderer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "React Stateless Renderer",
   "main": "./index.js",
   "author": {
@@ -14,9 +14,9 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "babel src --out-dir lib",
+    "build": "babel src -d lib",
     "prepublish": "npm run build",
-    "eslint": "eslint src"
+    "lint": "eslint src"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
